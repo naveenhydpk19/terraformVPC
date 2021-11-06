@@ -15,7 +15,7 @@ variable "environment" {
   description = "Name of environment this VPC is targeting"
 }
 variable "cidr_block" {
-  default     = "10.0.0.0/24"
+  default     = "172.0.0.0/24"
   type        = string
   description = "CIDR block for the VPC"
 }
