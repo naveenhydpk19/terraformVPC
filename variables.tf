@@ -5,11 +5,13 @@ variable "name" {
 }
 variable "project" {
   type        = string
+  default     = "naveenVPC"
   description = "Name of project this VPC is meant to house"
 }
 
 variable "environment" {
   type        = string
+  default     = "dev"
   description = "Name of environment this VPC is targeting"
 }
 variable "cidr_block" {
